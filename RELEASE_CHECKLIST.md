@@ -16,7 +16,7 @@ This checklist records the v0.1.0 publication checks. Device-specific limitation
 - [x] Confirmed Pocket Block appearance and motion, plus Pixel2 upright display after a frontend relaunch, during device development.
 - [x] Verify bilingual local links, ZIP-internal links, preset-relative shader paths, and exact asset checksums.
 - [x] Generate and verify `SHA256SUMS` and record v0.1.0 in `CHANGELOG.md`.
-- [ ] Create the public GitHub repository/release and read back its asset names, metadata, and checksums.
+- [x] Publish the public repository and [v0.1.0 release](https://github.com/game-de-it/mgb-native-lcd/releases/tag/v0.1.0); read back all three asset names, metadata, and SHA-256 values. Download both ZIPs and verify them against the published `SHA256SUMS`.
 
 ## Further device checks
 
