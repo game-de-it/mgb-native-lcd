@@ -1,0 +1,19 @@
+shaders = "2"
+feedback_pass = "0"
+
+shader0 = "mgb-grain-fade-track.glsl"
+filter_linear0 = "false"
+wrap_mode0 = "clamp_to_edge"
+scale_type0 = "source"
+scale0 = "1.0"
+
+shader1 = "mgb-grain-fade-draw.glsl"
+filter_linear1 = "false"
+wrap_mode1 = "clamp_to_edge"
+scale_type1 = "viewport"
+scale1 = "1.0"
+
+parameters = "MGB_TINT_R;MGB_TINT_G;MGB_TINT_B"
+MGB_TINT_R = "0.82"
+MGB_TINT_G = "0.83"
+MGB_TINT_B = "0.71"
